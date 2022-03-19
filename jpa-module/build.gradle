@@ -14,8 +14,12 @@ dependencies {
     implementation 'org.hibernate:hibernate-entitymanager:5.6.5.Final'
 
     // H2 DB
-    implementation 'com.h2database:h2:2.1.210'
+    implementation 'org.postgresql:postgresql:42.3.3'
 
+    // lombok
+    implementation 'org.projectlombok:lombok:1.18.22'
+
+    // testing
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
