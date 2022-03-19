@@ -10,6 +10,12 @@ repositories {
 }
 
 dependencies {
+    // JPA 구현체 Hibernate (hibernate-core 가 포함됨)
+    implementation 'org.hibernate:hibernate-entitymanager:5.6.5.Final'
+
+    // H2 DB
+    implementation 'com.h2database:h2:2.1.210'
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }

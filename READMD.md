@@ -11,6 +11,6 @@
 
 - [gradle 모듈 바로가기]()
 
-# Spring Data JPA
+# Docs href
 
-- [gradle 모듈 바로가기]()
+- [Hibernate ORM](https://hibernate.org/orm/documentation/getting-started/)
